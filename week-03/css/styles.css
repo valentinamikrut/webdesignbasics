@@ -1,0 +1,33 @@
+/*
+The default style sheet for this site.
+*/
+
+
+body {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+header {
+    background-color: #dbc3cb;
+}
+
+
+nav {
+    background-color: #dbc3cb;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 10px;
+
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}

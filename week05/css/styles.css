@@ -1,0 +1,194 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+header {
+	background-color: #FFFFFF;
+	min-height: 10px;
+}
+
+nav ul {
+	align-items: center;
+	background-color: #FFFFFF;
+	display: flex;
+	height: 50px;
+	justify-content: space-around;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+main {
+	background-color: #FFFFFF;
+	min-height: 600px;
+}
+
+footer {
+	background-color: #FFFFFF;
+	min-height: 50px;
+}
+
+footer ul {
+	align-items: center;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+}
+
+footer li {
+	padding-left: .75rem;
+	padding-right: .75rem;
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+.about {
+
+	width: 100%;
+
+}
+
+.aboutintro {
+	color: white;
+	font-size: 170%;
+	left: 15%;
+	position: absolute;
+	top: 50%;
+	width: 50%;
+
+}
+
+.contact {
+
+	display: flex;
+	height: 55vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+.contactme {
+	color: white;
+	display: flex;
+	height: 20vh;
+	font-size: 170%;
+	left: 15%;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	width: 50%;
+
+}
+
+
+.container {
+	float: left;
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 40%;
+	margin: 5%;
+}
+
+.logo {
+
+
+	font-size: 100%;
+
+
+}
+
+
+.workcontainer {
+	float: left;
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 28%;
+	margin: 2%;
+}
+
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.hometitle {
+	color: white;
+	font-size: 400%;
+	left: 25%;
+	position: absolute;
+	top: 70%;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+.project-info {
+	font-size: 70%;
+	width: 50%;
+
+}
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery figure {
+	color: black;
+	text-align: center;
+	width: 40%;
+	justify-content: center;
+}
+
+.gallery figure img {
+	width: 100%;
+}
+
+.figurecaption {
+	width: 20%;
+	justify-content: center;
+	font-size: 10%;
+}
+
+figcaption {
+	width: 100%;
+	justify-content: center;
+	font-size: 55%;
+}
+
+.backbutton {
+	float: right;
+	font-size: 60%;
+}
