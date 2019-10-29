@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Merriweather|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Assistant', sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+header {
+	background-color: #FFFFFF;
+	font-family: 'Assistant', sans-serif;
+	min-height: 10px;
+}
+
+h1 {
+	background-color: #FFFFFF;
+	font-family: 'Assistant', sans-serif;
+	min-height: 10px;
+}
+
+h2 {
+	background-color: #FFFFFF;
+	min-height: 10px;
+	font-size: 90%;
+	font-family: 'Assistant', sans-serif;
+}
+
+h3 {
+	background-color: #FFFFFF;
+	min-height: 10px;
+	font-family: 'Assistant', sans-serif;
+}
+
+h4 {
+	background-color: #FFFFFF;
+	min-height: 10px;
+	font-family: 'Assistant', sans-serif;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+}
+
+
+div2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+fotorama {
+	font-family: 'Assistant', sans-serif;
+
+}
+
+p {
+	font-family: 'Barlow', sans-serif;
+
+}
+
+nav ul {
+	align-items: center;
+	background-color: #FFFFFF;
+	display: flex;
+	height: 50px;
+	justify-content: space-around;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	font-family: 'Assistant', sans-serif;
+}
+
+
+
+main {
+	background-color: #FFFFFF;
+	min-height: 600px;
+	font-family: 'Assistant', sans-serif;
+}
+
+footer {
+	background-color: #FFFFFF;
+	display: flex;
+	min-height: 50px;
+}
+
+footer ul {
+	align-items: center;
+	display: flex;
+	font-family: 'Assistant', sans-serif;
+	height: 50px;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+
+}
+
+footer li {
+	padding-left: .75rem;
+	padding-right: .75rem;
+}
+
+li:hover {
+	color: deeppink;
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+a:visited {
+
+	text-decoration: none;
+	color: inherit;
+
+}
+
+.linkdefault1 {
+	color: black;
+}
+
+.linkdefault2 {
+	color: white;
+}
+
+
+	.home {
+	background-image: url("../img/head.jpg");
+		background-size: cover;
+		width: 90%;
+		height: 70vh;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 10%;
+}
+
+
+
+.about {
+
+		background-image: url("../img/cloudbw1.jpg");
+		background-size: cover;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-top: 10%;
+
+
+}
+
+.aboutintro {
+		
+	color: white;
+	font-family: 'Assistant', sans-serif;
+	font-size: 140%;
+	line-height: 32px;
+	margin-left: 10%;
+	text-align: justify;
+	top: 23%;
+	width: 30%;
+
+
+}
+
+.contact {
+
+	background-image: url("../img/cloud1.jpg");
+		background-size: cover;
+	width: 30%;
+		margin-left: 35%;
+		margin-right: 35%;
+		margin-top: 10%;
+	display: flex;
+	height: 40vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+.contactme {
+	color: white;
+	display: flex;
+	height: 20vh;
+	font-size: 170%;
+	font-family: 'Assistant', sans-serif;
+	left: 25%;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	top: 34%;
+	width: 50%;
+
+}
+
+
+.container1 {
+	color: white;
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 40%;
+	margin: 5%;
+}
+
+.container1:hover {
+	opacity: .6;
+	transition: opacity 300ms;
+
+}
+
+
+.container2 {
+	float: left;
+	position: relative;
+	text-align: center;
+	color: black;
+	width: 40%;
+	margin: 5%;
+}
+
+.container2:hover {
+	opacity: .6;
+	transition: opacity 300ms;
+
+}
+
+
+
+.logo {
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100%;
+	letter-spacing: 2px;
+}
+
+
+
+
+.workcontainer1 {
+	float: left;
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 28%;
+	margin: 2%;
+}
+
+.workcontainer1:hover {
+	opacity: .6;
+	transition: opacity 300ms;
+
+}
+
+.workcontainer1 .centered:hover {
+	opacity: .6;
+	transition: opacity 900ms;
+
+}
+
+.workcontainer2 {
+	float: left;
+	position: relative;
+	text-align: center;
+	color: black;
+	width: 28%;
+	margin: 2%;
+}
+
+.workcontainer2:hover {
+	opacity: .6;
+	transition: opacity 300ms;
+
+}
+
+.workcontainer2 .centered:hover {
+	opacity: .6;
+	transition: opacity 900ms;
+
+}
+
+.paraLink {
+
+	text-decoration-line: underline;
+
+}
+
+
+
+.workcontainer3 {
+	float: left;
+	left: 18%;
+	position: relative;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	color: white;
+	width: 28%;
+	margin: 2%;
+	display: flex;
+}
+
+.workcontainer3:hover {
+	opacity: .6;
+	transition: opacity 300ms;
+
+}
+
+.workcontainer3 .centered:hover {
+	opacity: .6;
+	transition: opacity 900ms;
+
+}
+
+
+.workcontainer4 {
+	float: left;
+	left: 18%;
+	position: relative;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	color: black;
+	width: 28%;
+	margin: 2%;
+	display: flex;
+}
+
+.workcontainer4:hover {
+	opacity: .6;
+	transition: opacity 300ms;
+
+}
+
+.workcontainer4 .centered:hover {
+	opacity: .6;
+	transition: opacity 900ms;
+
+}
+
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-content: center;
+	justify-content: center;
+
+}
+
+
+.centered2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered3 {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-content: center;
+	justify-content: center;
+
+}
+
+/*.centered:hover {
+	opacity: 1;
+	-webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+}*/
+
+
+.hometitle {
+	color: white;
+	font-family: 'Assistant', sans-serif;
+	font-size: 400%;
+	padding-left: 10%;
+	letter-spacing: 3px;
+	padding-top: 13%;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+.project-info {
+	font-size: 80%;
+	width: 50%;
+	line-height: 20px;
+	font-family: 'Assistant', sans-serif;
+}
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery figure {
+	color: black;
+	text-align: center;
+	width: 40%;
+	justify-content: center;
+}
+
+.gallery figure img {
+	width: 100%;
+}
+
+.figurecaption {
+	font-family: 'Assistant', sans-serif;
+	width: 20%;
+	justify-content: center;
+	font-size: 10%;
+}
+
+figcaption {
+	font-family: 'Assistant', sans-serif;
+	width: 100%;
+	justify-content: center;
+	font-size: 55%;
+}
+
+/*.thumbnail-2 {
+	align-items: center;
+background-color: #000;
+color: #fff;
+display: flex;
+font-size: 90%;
+height: 150px;
+justify-content: center;
+opacity: 0;
+position: absolute;
+transition: opacity .4s ease;
+width: 200px;
+}
+
+thumbnail-2: hover {
+opacity: .6;
+} */
+
+
+.backbutton {
+	float: right;
+	font-size: 75%;
+	font-family: 'Assistant', sans-serif;
+	text-decoration-line: underline;
+}
+
+
+
+
+@media only screen and (max-width: 740px) {
+	
+	.about {
+		background-image: url("../img/cloudbw1.jpg");
+		background-size: cover;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 10%;
+
+}
+	
+	.aboutintro	{
+		
+		
+	width: 75%;
+		padding-left: 5%;
+		padding-right: 30%;
+		padding-top: 5%;
+		font-size: 20px;
+		
+	
+}
+
+
+	
+.backbutton {
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+	
+.contact {
+	background-image: url("../img/cloud1.jpg");
+		background-size: cover;
+	width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 10%;
+	height: 70vh;
+}
+	
+
+	
+	.container2 {
+	margin-left: 15%;
+margin-right: 15%;
+	text-align: center;
+	color: black;
+		padding-top: 40px;
+	width: 70%;
+
+		justify-content: center;
+}
+
+.container1 {
+	color: white;
+		align-content: center;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	width: 70%;
+		margin-left: 15%;
+margin-right: 15%;
+}
+	
+	.home {
+	background-image: url("../img/head.jpg");
+		background-size: cover;
+		width: 90%;
+		
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 10%;
+}
+	
+	.hometitle {
+	font-size: 210%;
+		margin-top: 25%;
+}
+	
+	
+	h1 {
+	text-align: center;
+		padding-top: 30px;
+}
+	
+	h2 {
+	text-align: center;
+		
+}
+	
+	.project-info {
+	font-size: 80%;
+	width: 80%;
+	line-height: 20px;
+		padding-left: 10%;
+		padding-right: 10%;
+}
+	
+
+.workcontainer1 {
+		align-content: center;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 70%;
+		margin-left: 15%;
+margin-right: 15%;
+}
+	
+	
+.workcontainer2 {
+		align-content: center;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	color: black;
+	width: 70%;
+	margin-left: 15%;
+margin-right: 15%;
+}
+	
+
+.workcontainer3 {
+	margin: auto;
+	left: 18%;
+	position: relative;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	color: white;
+	width: 70%;
+		margin-left: 15%;
+margin-right: 15%;
+	display: flex;
+}
+	
+	.workcontainer4 {
+	margin: auto;
+	left: 18%;
+	position: relative;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	color: black;
+	width: 70%;
+		margin-left: 15%;
+margin-right: 15%;
+	display: flex;
+}
+	
+	
+	
+	nav {
+	
+		}
+	
+	nav ul {
+	align-items: center;	
+	background-color: #FFFFFF;
+		display: block;
+	height: 50px;
+	justify-content: center;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+		text-align: center;
+	font-family: 'Assistant', sans-serif;
+		line-height: 30px;
+	
+
+}
+	
+	
+
+	
+	
+	}
+
+
+@media only screen and (max-width: 400px) {
+	
+	
+		.about {
+		background-image: url("../img/cloudbw1.jpg");
+		background-size: cover;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 10%;
+
+}
+	
+	.aboutintro	{
+		
+		
+	width: 75%;
+		padding-left: 5%;
+		padding-right: 30%;
+		padding-top: 5%;
+		font-size: 15px;
+	
+}
+
+	
+	.container2 {
+	margin: auto;
+	position: relative;
+	text-align: center;
+	color: black;
+	width: 70%;
+	margin: 5%;
+}
+
+.container1 {
+	color: white;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	width: 70%;
+	margin: 5%;
+}
+	
+	nav ul {
+	align-items: center;
+	background-color: #FFFFFF;
+	height: 50px;
+	justify-content: space-around;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	font-family: 'Assistant', sans-serif;
+}
+	
+
+	
+	
+	}
