@@ -776,31 +776,27 @@ margin-right: 15%;
 	
 
 .workcontainer3 {
-	margin: auto;
-	left: 18%;
+		align-content: center;
+	justify-content: center;
 	position: relative;
 	text-align: center;
-	align-content: center;
-	justify-content: center;
 	color: white;
 	width: 70%;
 		margin-left: 15%;
 margin-right: 15%;
-	display: flex;
 }
 	
+	
 	.workcontainer4 {
-	margin: auto;
-	left: 18%;
-	position: relative;
-	text-align: center;
 	align-content: center;
 	justify-content: center;
+	margin: auto;
+	position: relative;
+	text-align: center;
 	color: black;
 	width: 70%;
-		margin-left: 15%;
+	margin-left: 15%;
 margin-right: 15%;
-	display: flex;
 }
 	
 	
@@ -828,12 +824,6 @@ margin-right: 15%;
 	
 
 	
-	
-	
-	
-	
-	
-	
 
 	
 		.about {
@@ -858,23 +848,6 @@ margin-right: 15%;
 }
 
 	
-	.container2 {
-	margin: auto;
-	position: relative;
-	text-align: center;
-	color: black;
-	width: 70%;
-	margin: 5%;
-}
-
-.container1 {
-	color: white;
-	margin: auto;
-	position: relative;
-	text-align: center;
-	width: 70%;
-	margin: 5%;
-}
 	
 	nav ul {
 	align-items: center;
