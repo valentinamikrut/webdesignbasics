@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;
+	background-color: #ffa369;
+	color: white;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-areas: 
+		"title title title .."
+		".. main main .."
+		"footer footer footer ..";
+	
+	grid-template-columns: 1fr 2fr 3fr;
+ grid-template-rows: 4rem auto 4rem;
+	
+}
+
+h1 {
+	grid-area: title;
+}
+
+article {
+	grid-area: main;
+}
+
+
+footer	{
+	grid-area: footer;
+	text-align: center;
+}
+
+
+.linkdefault {
+	grid-area: main;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+ul {
+	
+	text-decoration: none;
+	list-style: none;
+}
+
