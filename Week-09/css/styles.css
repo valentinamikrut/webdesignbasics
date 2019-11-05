@@ -16,6 +16,10 @@ body {
 	
 }
 
+img 	{
+	width: 900px;
+}
+
 h1 {
 	grid-area: title;
 }
