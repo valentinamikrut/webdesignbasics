@@ -1,0 +1,13 @@
+body {
+    font: 1.25em Montserrat, sans-serif;
+}
+
+.my-masthead {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.space-tb {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
